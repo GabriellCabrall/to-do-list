@@ -39,7 +39,7 @@ export default class CustomModal extends Component {
         <ModalBody>
           <Form>
             <FormGroup>
-              <Label for="todo-title">Title</Label>
+              <Label for="todo-title">Título</Label>
               <Input
                 type="text"
                 id="todo-title"
@@ -50,7 +50,7 @@ export default class CustomModal extends Component {
               />
             </FormGroup>
             <FormGroup>
-              <Label for="todo-description">Description</Label>
+              <Label for="todo-description">Descrição</Label>
               <Input
                 type="text"
                 id="todo-description"
@@ -75,7 +75,7 @@ export default class CustomModal extends Component {
         </ModalBody>
         <ModalFooter>
           <Button color="success" onClick={() => onSave(this.state.activeItem)}>
-            Save
+            Salvar
           </Button>
         </ModalFooter>
       </Modal>

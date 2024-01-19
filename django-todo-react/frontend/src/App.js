@@ -77,13 +77,13 @@ class App extends Component {
           className={this.state.viewCompleted ? "nav-link active" : "nav-link"}
           onClick={() => this.displayCompleted(true)}
         >
-          Complete
+          Completa
         </span>
         <span
           className={this.state.viewCompleted ? "nav-link" : "nav-link active"}
           onClick={() => this.displayCompleted(false)}
         >
-          Incomplete
+          Incompleta
         </span>
       </div>
     );
@@ -113,13 +113,13 @@ class App extends Component {
             className="btn btn-secondary mr-2"
             onClick={() => this.editItem(item)}
           >
-            Edit
+            Editar
           </button>
           <button
             className="btn btn-danger"
             onClick={() => this.handleDelete(item)}
           >
-            Delete
+            Apagar
           </button>
         </span>
       </li>
@@ -135,7 +135,7 @@ class App extends Component {
             <div className="card p-3">
               <div className="mb-4">
                 <button className="btn btn-primary" onClick={this.createItem}>
-                  Add Task
+                  Adicionar Tarefa
                 </button>
               </div>
               {this.renderTabList()}
